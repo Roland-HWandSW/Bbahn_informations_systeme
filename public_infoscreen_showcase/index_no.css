@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(0, 4, 255);
+  }
+
+  .container_step_1 {
+    text-align: center;
+    color: white;
+  }
+
+  .container_client > div {
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid;
+    border-block-end-width: 20px;
+    width: fit-content;
+  }
+
+  .container_client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_client > div:hover {
+    text-decoration: underline;
+  }
+
+  .container_step_2 {
+    text-align: center;
+    color: white;
+  }
+
+  .container_aspact_radio > div {
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    border: 0px solid rgb(255, 255, 255);
+    border-width: medium;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid;
+    border-block-end-width: 20px;
+    width: fit-content;
+  }
+
+  .container_aspact_radio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aspact_radio:hover {
+    text-decoration: underline;
+  }
